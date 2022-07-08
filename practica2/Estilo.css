@@ -1,0 +1,82 @@
+body{
+	background-color: orangered;/*color de fondo*/
+	color: black;/*color de texto*/
+}
+#barra a{
+	/*estilo a las etiquetas*/
+	text-decoration: none;
+	color: black;
+}
+#barra a:hover{
+	text-decoration: underline;
+	color: green;
+}
+#barra{/*color de toda la barra*/
+	background: yellow;/*color de fondo*/
+	position: absolute;/*tomara todo el espacio*/
+	left: 0;/*para que tome el lugar del margen superior izquierdo*/
+	top: 0;/*para que suba al margen superior*/
+	display: block;
+	width: 100%;
+}
+#barra ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#barra li{
+	float: left;
+}
+#barra li a{
+	padding: 30px;/*espacio entre los elementos*/
+	display: inline-block;
+	text-decoration: none;
+
+}
+#barra li a:hover{
+	color: black;
+	background-color: white;
+}
+/*identificador de contenido*/
+
+#Contenido{
+	max-width: 100%;
+	top: 80px;
+	background-color:lightblue;
+	position: relative;
+	margin: 0 auto;
+	padding: 2%;
+}
+#Contenido header{
+	height: 120px;/*alto*/
+	padding: 10px 20px;
+	background-color: lightgreen;
+	border-radius: 1em;
+}
+#principal p{
+	width: 35%;/*ancho*/
+	float: left;/*ubicacion a la izquierda*/
+	padding: 4px;
+}
+#secundario p{
+	width: 35%;/*ancho*/
+	float: left;/*ubicacion a la izquierda*/
+	padding: 4px;
+}
+#tercero p{
+	width: 28%;/*ancho*/
+	float: left;/*ubicacion a la izquierda*/
+	padding: 4px;
+}
+#Contenido aside{
+	width: 20%;
+	float: left;
+	padding: 4px;
+}
+#Contenido footer{
+	clear: both;
+	width: 100%;
+	background-color: lightgreen;
+	height: 100px;
+	border-radius: 1em;
+}
